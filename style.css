@@ -25,7 +25,8 @@ main {
 }
 
 .content {
-    width: 50rem;
+    margin: auto;
+    justify-content: space-between;
 }
 
 .nav {
@@ -57,11 +58,14 @@ main {
     padding: 0 2rem;  
     text-decoration: none;   /*tira o siblinhado*/
     transition: background 0.3s;
+
+    flex-wrap: nowrap; /*deixa o botão certinho*/
 } 
 
 
 .button .filme {
     background: #628E75;
+    border: 3px solid #628E75;
    
 }
 
@@ -86,16 +90,14 @@ main {
 }
 
 .animação {
-    display: flex;
+    display: inline-flex;
     margin-left: 10.3rem;
     margin-top: 10.3rem;
-    padding: 0 4rem;
     animation: float 3s ease-in-out infinite;
 }
 
 .text {
     margin-right: 10.3rem;
-    margin-top: 10.3rem;
 }
 
 .text h3 {
